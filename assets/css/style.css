@@ -202,7 +202,7 @@ a:hover, .lead a:hover {
 /*--/ Title Left /--*/
 
 .title-box-2 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .title-left {
@@ -226,7 +226,7 @@ a:hover, .lead a:hover {
 }
 
 .box-shadow-full {
-  padding: 3rem 1.25rem;
+  padding: 2rem 1.25rem;
   position: relative;
   background-color: #fff;
   margin-bottom: 3rem;
@@ -705,19 +705,29 @@ a:hover, .lead a:hover {
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+/*div#about-me-description, div#about-me-avatar {
+  margin-left: 0.1rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}*/
+
+div#about-me-description p.lead {
+  font-size: 1rem !important;
+}
 
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .about-mf .about-img {
   margin-bottom: 2rem;
 }
 
+/*
 .about-mf .about-img img {
   margin-left: 10px;
-}
+} */
 
 .skill-mf span {
   color: #4e4e4e;
