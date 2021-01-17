@@ -1,172 +1,817 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Meta Definitions -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
-        <!-- Style Definitions -->
-        <link type="text/css" rel="stylesheet" href="./css/main.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        
-        <!-- WebPage definitions -->
-        <title>Catarina Belem Personal Webpage</title>
-    </head>
-    <body>
-        <div class="page">
-            <section class="container" style="background-image: url('img/river-site.png');">
-                <!-- Header -->
-                <header>
-                    <div class="top-menu">
-                        <ul>
-                            <li class="active">
-                                <a href="#about-card">
-                                    <span><i class="fa fa-user"></i></span>
-                                    <span class="link">About</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#resume-card">
-                                    <span><i class="fa fa-id-card"></i></span>
-                                    <span class="link">Resume</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#works-card">
-                                        <span><i class="fa fa-briefcase"></i></span>
-                                        <span class="link">Works</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#hobbies-card">
-                                    <span><i class="fa fa-puzzle-piece"></i></span>
-                                    <span class="link">Hobbies</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#blog-card">
-                                    <span><i class="fa fa-comments"></i></span>
-                                    <span class="link">Blog</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#contact-card">
-                                    <span><i class="fa fa-at"></i></span>
-                                    <span class="link">Contact</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </header>
-                <div class="profile image">
-                        <img src="img/profile.png" alt="Catarina's Personal Picture"/>
-                </div>
+<head>
 
-                <!-- Home Card -->
-                <div id="home-card" class="class-started">
-                    <!-- Profile Titles -->
-                    <div>
-                        <div class="title">Catarina Belém</div>
-                        <div class="subtitle">Junior Researcher @ INESC-ID</div>
-                    </div>
-                    <!-- Profile Socials -->
-                    <div class="social">
-                        <a href="https://www.linkedin.com/in/catarina-bel%C3%A9m-20a114a8/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://www.github.com/PastelBelem8" target="_blank"><i class="fa fa-github"></i></a>
-                        <a href="https://stackoverflow.com/users/5079308/pastel-belem"target="_blank"><i class="fa fa-stack-overflow"></i></a>
-                        <a href="https://www.facebook.com/katarina.blem" ><i class="fa fa-facebook-official"></i></a>
-                        <a href="https://www.instagram.com/katarinabelem/"><i class="fa fa-instagram"></i></a>
-                        <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-                    </div>
-                    <!-- Profile Buttons -->
-                    <div class="link-buttons">
-                        <a class="link-button" target="_blank" href="resources/CV.pdf">
-                            <span class="text">Download CV</span>
-                            <span class="download"><i class="fa fa-download"></i></span>
-                        </a>
-                        <a class="link-button discover" href="mailto:catarina.belem@tecnico.ulisboa.pt">
-                            <span class="text">Contact Me</span>
-                            <span class="mail"><i class="fa fa-envelope"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <!-- About Card -->
-                <div id="about-card" class="card-inner active">
-                    <div class="slimScrollDiv">
-                        <div class="card-wrap" >
-                            <!-- About -->
-                            <div class="content about">
-                                <!-- Title-->
-                                <div class="title">About Me</div>
-                                <!-- Content -->
-                                <div class="row">
-                                    <div class="text-box">
-                                        <p>I am Catarina Belém, I am currently finishing my master Degree on Intelligent Systems and Distributed Systems. ... </p>
-                                    </div>
-                                    <div class="info-list">
-                                        <ul>
-                                            <li>
-                                                <strong>Birth</strong> 
-                                                June, 1995
-                                            </li>
-                                            <li>
-                                                <strong>Residence</strong> 
-                                                Portugal
-                                            </li>
-                                            <li>
-                                                <strong>Address</strong>
-                                                Lisbon, Portugal
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <!-- Interests -->
-                            <div class="content interests">
-                                <!-- Title-->
-                                <div class="title">Interests</div>
-                                <!-- Content -->
-                                <div class="row interest-items">
-                                    <div class="interest-item">
-                                        <div class="icon">
-                                                <span><i class="fas fa-toolbox"></i></span>
-                                        </div>
-                                        <div class="name">Applications of AI</div>
-                                        <p>Clear and Succint Description of my interest for AI</p>
-                                    </div>
-                                    <div class="interest-item">
-                                        <div class="icon">
-                                                <span><i class="fas fa-toolbox"></i></span>
-                                        </div>
-                                        <div class="name">Explainable AI</div>
-                                        <p>Clear and Succint Description of my interest for explainable AI</p>
-                                    </div>
-                                    <div class="interest-item">
-                                        <div class="icon">
-                                                <span><i class="fas fa-toolbox"></i></span>
-                                        </div>
-                                        <div class="name">Machine Learning</div>
-                                        <p>Clear and Succint Description of my interest for ML</p>
-                                    </div>
-                                    <div class="interest-item">
-                                        <div class="icon">
-                                                <span><i class="fas fa-toolbox"></i></span>
-                                        </div>
-                                        <div class="name">Programming Languages</div>
-                                        <p>Clear and Succint Description of my interest for Programming Languages</p>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+  <!-- WebPage definitions -->
+  <title>Catarina Belem</title>
 
-            <footer>
-                <p> Created by Catarina Belém on December 2018. </p>
-            </footer>
+  <!-- Meta Definitions -->
+  <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+  <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+  <!--[if !IE]><!-->
+  <html lang="en">
+  <!--<![endif]-->
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catarina Belem Personal Page">
+  <meta name="author" content="Catarina Belem, DevFolio(https://bootstrapmade.com/)">
+  <meta name="keywords" content="Belem,Catarina">
+
+  <!-- Bootstrap CSS File -->
+  <link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+  <link href="assets/plugins/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/plugins/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/plugins/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  <link id="theme-style" type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body id="page-top">
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top"></a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#experience">Experience</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#education">Education</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#volunteer">Volunteer</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/intro-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="intro-title mb-4">Catarina Garcia Belém</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Research Data Scientist, Software Engineer,
+              Programming Languages, Distributed Systems</span><strong class="text-slider"></strong></p>
         </div>
-    </body>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="assets/img/general/catarinabelem.jpeg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Catarina Garcia Belém</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Research Data Scientist</span></p>
+                      <p><span class="title-s">Email: </span> <span>catarina.garcia.belem[at]gmail[dot]com</span></p>
+                      <p><span class="title-s">Interests: </span> <span>Machine Learning, Ethical AI</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skill</p>
+
+                  <span>Java</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+
+                  <span>Julia</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+
+                  <span>LISP</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+
+                  <span>Python</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <!--
+                <div class="hobbies-mf">
+                  <p class="title-s">Hobbies</p>
+                  <span>Cooking</span> <span class="pull-right">60%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+
+                  <span>Electronics</span> <span class="pull-right">25%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+
+                  <span>Play the Clarinet</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+
+                  <span>Running and Swimming</span> <span class="pull-right">95%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>-->
+
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    I completed my master's program on Computer Engineering and Information Systems at <a
+                      href="https://tecnico.ulisboa.pt/">Instituto Superior Técnico</a> (IST) on June 2019. I am
+                    currently working at <a href="https://feedzai.com/">Feedzai</a> as a Research Data Scientist, where
+                    I have both the roles of Software Engineer and Data Scientist.
+                  </p>
+                  <p class="lead">
+                    Simultaneously, I am a junior researcher at <a href="https://www.inesc-id.pt/">INESC-ID</a> in the
+                    <a href="https://algorithmicdesign.github.io/">ADA</a> research group, whom I have collaborated with
+                    during my master's dissertation. My dissertation is entitled: <i>Optimization of Time-Consuming
+                      Objective Functions: Derivative-Free Approaches and their Application in Architecture</i> and you
+                    may find it <a
+                      href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1409728525632791">here</a> or <a
+                      href="https://www.researchgate.net/publication/333719560_Optimization_of_Time-Consuming_Objective_Functions_Derivative-Free_Approaches_and_their_Application_in_Architecture">here</a>.
+                  </p>
+                  <p class="lead">
+                    I have a comprehensive background on software engineering, distributed systems, and
+                    intelligent-based systems and my research interests include Artificial Intelligence, Machine
+                    Learning, and Programming Languages as they are very exciting fields and enclose great potential to
+                    enhance people’s and organizations’ lives.
+                  </p>
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <a href="https://drive.google.com/file/d/1psj4pT1FrAawXB0PSbpgOSOs8gxNFF4r/view?usp=sharing"
+                        class="btn btn-primary btn-lg active" role="button" aria-pressed="true"
+                        style="margin:0.1rem auto; display:block;">Detailed CV</a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a href="https://drive.google.com/file/d/1Qi3MIC7HNIm0kuEV0s-rZ8rYLJ-xKhXh/view?usp=sharing"
+                        class="btn btn-primary btn-lg active" role="button" aria-pressed="true"
+                        style="margin:0.1rem auto; display:block;">Short CV</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Experience Star /-->
+  <section id="experience" class="services-mf bg-image route" style="background-image: url(assets/img/overlay-bg4.jpg)">
+    <div class="white-overlay-mf"></div>
+    <!-- <section id="experience" class="services-mf route"> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Experience
+            </h3>
+            <p class="subtitle-a">
+              Each day I thrive for being better than the day before. I embrace each challenge with determination and
+              focus. I always try to bring value to whatever I do.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-lightbulb"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Research Data Scientist @ Feedzai</h2>
+              <p class="s-description text-center">
+                Starting on <b>July 2019</b>, I am currently working at Feedzai's ML Research group. Current role
+                requires both Software engineering skills to develop tools in Python, but also Machine Learning engineer
+                to apply these tools to improve Model Selection stages in ML pipelines. Technologies: Python,
+                Postgresql, Gitlab
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-university"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Teaching Assistant @ IST</h2>
+              <p class="s-description text-center">
+                Started on <b>February 2018</b>, I've been a teaching assistant of the courses of Advanced
+                Programming (Spring 2018, Spring 2019) and Programming Languages (Spring 2018) at
+                the Master Degree of Computer Engineering and Information Systems at IST.
+                Responsibilities included preparing and creating exercises for the practical classes,
+                preparing and evaluating the projects and exams.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-flask"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Junior Researcher @ INESC-ID</h2>
+              <p class="s-description text-center">
+                Started on <b>September 2017</b>, I've been a junior researcher at INESC-ID in Lisbon.
+                My research focuses on efficient ways of optimizing architectural design problems,
+                typically characterized by time-consuming evaluation functions.
+                My research also includes applications of Machine Learning to enhance the architectural practice.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Junior Programmer @ Link Consulting</h2>
+              <p class="s-description text-center">
+                From <b>July 2016</b> to <b>31 of July 2017</b>, I have worked at Link Consulting
+                as a programmer and analyst.
+                I belonged to the SOA integration services team and I have worked with several
+                concepts such as Continuous Integration (Jenkins, Artifactory, Docker, etc) and
+                system integration (SOA, BPEL, SOAP, REST, WS, OSB, JMS).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-document-text"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Summer Intern @ Link Consulting</h2>
+              <p class="s-description text-center">
+                From <b>June 2016</b> to <b>September 2016</b>, I have enrolled in a summer internship at Link
+                Consulting.
+                As an intern, I researched how to develop and integrate web applications for
+                Documental Management. To this end, I have explored Microsoft Office, Libre Office
+                and Open Apache Office APIs to learn how to better integrate them at Link's
+                product workflow. Technologies: Javascript, HTML, CSS, C#, MVC, and Java
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+  <!--/ Section Education Star /-->
+  <section id="education" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-b">
+              Education
+            </h3>
+            <p class="subtitle-b">
+              The best of privileges is to learn and being able to teach. I keep challenging myself to learn and
+              research new topics and to enroll in new activities.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-bookmarks"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Pre-Doctoral Research School 2019</h2>
+              <p class="s-description text-center">
+                Participated in the <i><a href="https://cmmrs.mpi-sws.org/">The Cornell, Maryland, Max Planck
+                    Pre-doctoral
+                    Research School 2019</a></i> in Saabrücken, Germany. Approached topics included
+                Machine Teaching, Programming Languages, Web Public Key Infrastructure,
+                Data Visualization, Random Testing.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-university"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Master of Science</h2>
+              <p class="s-description text-center">
+                Master of Science in Information Systems and Computer Engineering @ Instituto Superior Técnico,
+                University of Lisbon, Portugal.
+                <br>Specializations: Intelligent Systems and Distributed Systems.
+                <br />
+                Completed the degree with a final grade of 19/20. My master's dissertation received a final grade of
+                20/20.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-university"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Bologna Degree</h2>
+              <p class="s-description text-center">
+                Bologna Degree in Information Systems and Computer Engineering @ Instituto Superior Técnico, University
+                of Lisbon, Portugal.
+                <br /><br />
+                Completed the degree with a final grade of 18/20.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--/ Section Education End /-->
+
+
+  <!--/ Section Volunteer Star /-->
+  <section id="volunteer" class="services-mf bg-image route" style="background-image: url(assets/img/overlay-bg4.jpg)">
+    <div class="white-overlay-mf"></div>
+
+    <!-- <section id="volunteer" class="services-mf route"> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Volunteer
+            </h3>
+            <p class="subtitle-a">
+              The few I have, I share. What I like the most in volunteering is the ability to make a change and to make
+              someone's life better (:
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-briefcase"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Student Advisor @ HAC | TreeTree2 </h2>
+              <p class="s-description text-center">
+                Started on September 2019, I have collaborated with <a href="https://www.treetree2.org">TreeTree2</a> in
+                the
+                context of the <a href="https://www.treetree2.org/hac">HAC</a> project. This project includes
+                supervising and
+                helping younger students (from the 7th to 9th grade) to complete a CS project and to teach them new
+                concepts. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-briefcase"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">NEIIST @ IST</h2>
+              <p class="s-description text-center">
+                From 2015 to 2018, I collabored with other students in the
+                <a href="https://neiist.tecnico.ulisboa.pt/">Nucleo Estudantil de Informática do IST (NEIIST)</a>. There
+                I
+                was responsible for organizing events (e.g., workshop, lectures, tournaments), preparing and
+                evaluating several quality forms, advertising the events, and, I have been responsible for a team which
+                carried out introductory programming activities targeted at children between 8 and 17 years old
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-people"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Summit 2017 @ Lisbon</h2>
+              <p class="s-description text-center">
+                In 2017, I was a volunteer at the Web Summit event in Lisbon, Portugal. I was part of the
+                Design Team and responsibilities included handling flyers, talking to participants and helping
+                with the information display in the event.
+              </p>
+              <div class="service-img">
+                <img src="assets/img/websummit.jpg" alt="" class="img-fluid rounded mx-auto d-block" style="height: 12rem">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-person-stalker"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Mentor @ IST</h2>
+              <p class="s-description text-center">
+                In 2015 and 2016 I was a mentor of freshmen students @ IST. Responsibilities included monthly meetings,
+                planning and giving advices to students, thus easing their adaptation to the graduate school.
+              </p>
+              <div class="service-img">
+                <img src="assets/img/mentor.jpg" alt="" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-chatbubbles"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">External Relations @ IST</h2>
+              <p class="s-description text-center">
+                In 2015 and 2016, I collaborated on the preparation and organization of the <a
+                  href="http://set.ist.utl.pt/">Semana Empresarial e Tecnológica
+                  (SET)</a> of IST. Responsibilities included communicating with companies and advertising the event.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-musical-notes"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Sol da Caparica Festival @ Portugal</h2>
+              <p class="s-description text-center">
+                In 2015 and 2016, I was a volunteer at a portuguese music festival, called
+                <a href="https://www.facebook.com/osoldacaparica/">Sol da Caparica</a>.
+                In the first year, I was part of the Environment preservation team and
+                in the second year, I was part of the Entertainment team.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--/ Section Volunteer End /-->
+
+
+
+  <!--
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">6</p>
+              <span class="counter-text">PUBLICATIONS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">2</p>
+              <span class="counter-text">YEARS OF RESEARCH</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-people"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">2</p>
+              <span class="counter-text">YEARS OF TEACHING</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">1.5</p>
+              <span class="counter-text">YEARS OF EXPERIENCE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!--/ Section Portfolio Star /-->
+  <section id="research" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row row-eq-height">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-b">
+              Research
+            </h3>
+            <p class="subtitle-b">
+              During my master's dissertation I have collaborated in the publication of 6 scientific contributions for
+              the Architectural Design community. You can find these and other presentations <a
+                href="https://algorithmicdesign.github.io/research/publications.html">here</a>.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-eq-height">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="assets/img/Falsecolor_PF_122212_13.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="assets/img/Falsecolor_PF_122212_13.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <span class="w-title">
+                  <h2 class="w-title">Optimizing Exhibition Spaces:</h2> A Multi-Objective Approach
+                </span>
+                <div class="w-more">
+                  <span class="w-ctegory">37th eCAADe 2019</span> / <span class="w-date">11-13 Sep. 2019</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="assets/img/ml_architecture.PNG" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="assets/img/ml_architecture.PNG" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <span class="w-title">
+                  <h2 class="w-title">On the Impact of Machine Learning:</h2> Architecture without Architects?
+                </span>
+                <div class="w-more">
+                  <span class="w-ctegory">CAAD Futures 2019</span> / <span class="w-date">27-29 Jun. 2019</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="assets/img/algorithms.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="assets/img/algorithms.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <span class="w-title">
+                  <h2 class="w-title">Conflicting Goals In Architecture:</h2> A study on Multi-Objective Optimisation
+                </span>
+                <div class="w-more">
+                  <span class="w-ctegory">24th CAADRIA</span> / <span class="w-date">14-16 Apr. 2019</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="assets/img/adaptive_façades.PNG" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="assets/img/adaptive_façades.PNG" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Algorithmic Design and Performance Analysis of Adaptive Façades</h2>
+                <div class="w-more">
+                  <span class="w-ctegory">24th CAADRIA</span> / <span class="w-date">14-16 Apr. 2019</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="assets/img/ericeira_house.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="assets/img/ericeira_house.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <span class="w-title">
+                  <h2 class="w-title">From Design to Optimized Design:</h2> An algorithmic-based approach
+                </span>
+                <div class="w-more">
+                  <span class="w-ctegory">36th eCAADe</span> / <span class="w-date">12-14 Sep. 2018</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="assets/img/paper_1.mp4" data-lightbox="gallery-mf">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="assets/img/paper_1.mp4"></iframe>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Case Studies on the Integration of Algorithmic Design Processes in Traditional
+                  Design Workflows</h2>
+                <div class="w-more">
+                  <span class="w-ctegory">23rd CAADRIA</span> / <span class="w-date">18 Sep. 2018</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg4.jpg)">
+    <div class="white-overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Contact me
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      If you have any question about me or need additional information, send me an email and I will be
+                      happy to answer your questions!
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Lisbon, Portugal</li>
+                      <!-- <li><span class="ion-ios-telephone"></span> (617) 557-0089</li> -->
+                      <li><span class="ion-email"></span>catarina.belem@ist.utl.pt</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/catarina-belém-20a114a8/"><span class="ico-circle"><i
+                              class="ion-social-linkedin"></i></span></a></li>
+                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li> -->
+                      <li><a href="https://github.com/PastelBelem8"><span class="ico-circle"><i
+                              class="ion-social-github"></i></span></a></li>
+                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="assets/plugins/jquery/jquery.min.js"></script>
+  <script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="assets/plugins/popper/popper.min.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/plugins/easing/easing.min.js"></script>
+  <script src="assets/plugins/counterup/jquery.waypoints.min.js"></script>
+  <script src="assets/plugins/counterup/jquery.counterup.js"></script>
+  <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+  <script src="assets/plugins/lightbox/js/lightbox.min.js"></script>
+  <script src="assets/plugins/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="assets/js/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
