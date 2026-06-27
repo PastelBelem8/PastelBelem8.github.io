@@ -28,7 +28,7 @@
   content: "Our paper [Readability Reconsidered](https://aclanthology.org/2025.tsar-1.4/) was accepted at the TSAR Workshop @ EMNLP 2025! 🎉"
 
 - date: 2025-06-01
-  content: "Excited to start a research internship at Capital One, working on applying post-training recipes to improve the customization of smaller-scale LMs! 🙌"
+  content: "Excited to start a research internship at Capital One, working on post-training recipes for question-answering systems! 🙌"
 
 - date: 2025-04-15
   content: "Our paper on [hallucination in multi-document summarization](https://aclanthology.org/2025.findings-naacl.293/) was accepted at NAACL 2025 Findings! 🎉"
@@ -38,6 +38,9 @@
 
 - date: 2025-03-01
   content: "New preprint out — [Semantic Probabilistic Control of Language Models](/files/soft_constrained_decoding.pdf)! 🌟"
+
+- date: 2026-01-06
+  content: "Excited to TA CS 175 — Projects in AI (Winter 2026), where I'll mentor students building NLP-related projects! 🙌"
 
 - date: 2025-01-01
   content: "Our paper on [what large language models know and what people think they know](https://www.nature.com/articles/s42256-024-00976-7) was published in Nature Machine Intelligence! 🎉"
