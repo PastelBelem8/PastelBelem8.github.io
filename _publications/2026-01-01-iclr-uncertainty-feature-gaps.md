@@ -5,6 +5,7 @@ category: conferences
 permalink: /publication/2026-iclr-uncertainty-feature-gaps
 date: 2026-01-15
 venue: 'International Conference on Learning Representations (ICLR 2026)'
+paperurl: 'https://openreview.net/forum?id=OWvvdl27CE'
 authors: 'Y. F. Bakman, S. Kang, Z. Huang, D. N. Yaldiz, C. Belem, C. Zhu, A. Kumar, A. Samuel, D. Liu, S. Avestimehr, S. P. Karimireddy'
 bibtex: |
   @inproceedings{bakman2026iclr,
