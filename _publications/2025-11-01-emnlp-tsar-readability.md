@@ -5,6 +5,7 @@ category: workshops
 permalink: /publication/2025-emnlp-tsar-readability
 date: 2025-11-01
 venue: 'EMNLP 2025 Workshop on Text Simplification, Accessibility, and Readability (TSAR)'
+paperurl: 'https://aclanthology.org/2025.tsar-1.4/'
 authors: 'C. Belem, P. Glenn, A. Samuel, A. Kumar, D. Liu'
 bibtex: |
   @inproceedings{belem2025tsar,
