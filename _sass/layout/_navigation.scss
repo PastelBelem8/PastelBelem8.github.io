@@ -442,3 +442,9 @@
     }
   }
 }
+
+/* Hide the responsive nav toggle (navicon hamburger) per design preference —
+   the site uses inline nav links only. */
+.greedy-nav > button {
+  display: none !important;
+}
