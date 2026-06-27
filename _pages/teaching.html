@@ -10,7 +10,7 @@ author_profile: true
 {% assign teaching_sorted = site.teaching | sort: "date" | reverse %}
 {% assign uci_courses = teaching_sorted | where: "venue", "University of California, Irvine" %}
 {% assign ist_courses = teaching_sorted | where: "venue", "Instituto Superior Técnico, University of Lisbon" %}
-{% assign other_courses = teaching_sorted | where_exp: "post", "post.venue != 'University of California, Irvine' and post.venue != 'Instituto Superior Técnico, University of Lisbon'" %}
+{% assign other_courses = teaching_sorted | where_exp: "post", "post.venue != 'University of California, Irvine'" | where_exp: "post", "post.venue != 'Instituto Superior Técnico, University of Lisbon'" %}
 
 <h2>University of California, Irvine</h2>
 <ul>
