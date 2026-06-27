@@ -1,45 +1,49 @@
 # Homepage news items. Newest first is handled automatically by sorting on `date`.
 # To add an entry, append a new item with a full `date` (YYYY-MM-DD) and Markdown
 # `content` (inline links allowed). The date renders as "Mon YYYY".
-
-- date: 2026-06-01
-  content: "Participating in the Deep Voices program from DLSPT (remote)"
-
-- date: 2026-05-01
-  content: "New preprint available: [Certainty Distortion in Language Model Rewriting](https://arxiv.org/pdf/2606.07951)"
-
-- date: 2026-01-15
-  content: "Paper accepted at ICLR 2026: [Uncertainty as Feature Gaps](https://arxiv.org/abs/2510.02671)"
+#
+# Tone & emoji convention (keep consistent):
+#   paper accepted/published -> 🎉   preprint -> 🌟   internship -> 🙌
+#   program/cohort -> 🥂            invited talk -> 🎊  award -> 🏆
 
 - date: 2026-06-15
-  content: "Started a research internship at Apple"
+  content: "Excited to start a research internship at Apple, working on post-training recipes to improve the QA system powering Siri! 🙌"
+
+- date: 2026-06-01
+  content: "Honored to be interviewed for the [Deep Learning Voices](https://www.youtube.com/watch?v=JCOZrevHJlc&list=PLT-CmpE4c3jer-nHVath1ZbeacyXc-Thx) hosted by the Deep Learning Sessions Portugal (remote)! 🥂"
+
+- date: 2026-05-01
+  content: "New preprint out — [Certainty Distortion in Language Model Rewriting](https://arxiv.org/pdf/2606.07951)! 🌟"
+
+- date: 2026-01-15
+  content: "Our paper [Uncertainty as Feature Gaps](https://arxiv.org/abs/2510.02671) was accepted at ICLR 2026! 🎉"
 
 - date: 2025-12-02
-  content: "Paper accepted at the NeurIPS 2025 LLM Evaluations Workshop: [Bayesian evaluation of black-box LLM behavior](https://arxiv.org/abs/2511.10661)"
+  content: "Our paper [Bayesian Evaluation of Black-box LLM Behavior](https://arxiv.org/abs/2511.10661) was accepted at the NeurIPS 2025 LLM Evaluations Workshop! 🎉"
 
 - date: 2025-12-01
-  content: "*Semantic Probabilistic Control of Language Models* accepted at the NeurIPS 2025 SPIGM Workshop (Structured Probabilistic Inference & Generative Modeling) ([paper](/files/soft_constrained_decoding.pdf))"
+  content: "Our paper [Semantic Probabilistic Control of Language Models](/files/soft_constrained_decoding.pdf) was accepted at the NeurIPS 2025 SPIGM Workshop! 🎉"
 
 - date: 2025-11-01
-  content: "Workshop paper at the TSAR Workshop (EMNLP 2025) on evaluating readability metrics: [Readability Reconsidered](https://aclanthology.org/2025.tsar-1.4/)"
+  content: "Our paper [Readability Reconsidered](https://aclanthology.org/2025.tsar-1.4/) was accepted at the TSAR Workshop @ EMNLP 2025! 🎉"
 
 - date: 2025-06-01
-  content: "Started a research internship at Capital One"
+  content: "Excited to start a research internship at Capital One, working on applying post-training recipes to improve the customization of smaller-scale LMs! 🙌"
 
 - date: 2025-04-15
-  content: "Our paper on hallucination in multi-document summarization was accepted at NAACL 2025 Findings ([paper](https://aclanthology.org/2025.findings-naacl.293/))"
+  content: "Our paper on [hallucination in multi-document summarization](https://aclanthology.org/2025.findings-naacl.293/) was accepted at NAACL 2025 Findings! 🎉"
 
 - date: 2025-04-01
-  content: "Invited talk at the Mila/McGill NLP reading group on *Perceptions of Linguistic Uncertainty* ([details](https://mcgill-nlp.github.io/reading-group/winter-2025/catarina-belem/))"
+  content: "Gave an invited talk at the [Mila/McGill NLP reading group](https://mcgill-nlp.github.io/reading-group/winter-2025/catarina-belem/) on perceptions of linguistic uncertainty! 🎊"
 
 - date: 2025-03-01
-  content: "New preprint available: [Semantic Probabilistic Control of Language Models](/files/soft_constrained_decoding.pdf)"
+  content: "New preprint out — [Semantic Probabilistic Control of Language Models](/files/soft_constrained_decoding.pdf)! 🌟"
 
 - date: 2025-01-01
-  content: "New *Nature Machine Intelligence* paper on [what large language models know and what people think they know](https://www.nature.com/articles/s42256-024-00976-7)"
+  content: "Our paper on [what large language models know and what people think they know](https://www.nature.com/articles/s42256-024-00976-7) was published in Nature Machine Intelligence! 🎉"
 
 - date: 2024-11-01
-  content: "EMNLP 2024 main-conference paper: [Perceptions of Linguistic Uncertainty](https://aclanthology.org/2024.emnlp-main.483/)"
+  content: "Our paper [Perceptions of Linguistic Uncertainty](https://aclanthology.org/2024.emnlp-main.483/) was accepted at EMNLP 2024! 🎉"
 
 - date: 2024-06-01
-  content: "Started a research internship at Megagon Labs"
+  content: "Excited to start a research internship at Megagon Labs, working on evaluating, characterizing, and mitigating hallucinations in multi-document summarization! 🙌"
