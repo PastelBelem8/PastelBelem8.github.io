@@ -1,0 +1,9 @@
+{% assign news_sorted = site.data.news | sort: "date" | reverse %}
+<div class="news-list">
+  {% for item in news_sorted %}
+    <div class="news-item">
+      <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+      <span class="news-text">{{ item.content | markdownify | remove: "<p>" | remove: "</p>" | strip_newlines }}</span>
+    </div>
+  {% endfor %}
+</div>

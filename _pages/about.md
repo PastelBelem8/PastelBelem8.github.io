@@ -14,3 +14,7 @@ My work has two main directions. First, I evaluate model failures, including gen
 During my PhD, I have been fortunate to complete research internships at Megagon Labs, Capital One, and Apple, where I worked on LLM evaluation, factual and readable generation, model customization, and reasoning.
 
 Before my PhD, I was a research data scientist at Feedzai, working with [Pedro Saleiro](https://pedrosaleiro.com/) and [Pedro Bizarro](https://www.linkedin.com/in/pedrobizarro/) in the Responsible AI group. There, I worked on algorithmic fairness and explainable AI for fraud detection.
+
+## News
+
+{% include news.html %}
