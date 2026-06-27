@@ -2,10 +2,10 @@
 title: "Advanced Programming"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2018-spring-advanced-programming-ist
+permalink: /teaching/2019-spring-advanced-programming-ist
 venue: "Instituto Superior Técnico, University of Lisbon"
-term: "Spring 2018"
+term: "Spring 2019"
 role: "Teaching Assistant"
-date: 2018-04-01
+date: 2019-04-01
 location: "Lisbon, Portugal"
 ---

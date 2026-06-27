@@ -7,6 +7,30 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign teaching_sorted = site.teaching | sort: "date" | reverse %}
+{% assign uci_courses = teaching_sorted | where: "venue", "University of California, Irvine" %}
+{% assign ist_courses = teaching_sorted | where: "venue", "Instituto Superior Técnico, University of Lisbon" %}
+{% assign other_courses = teaching_sorted | where_exp: "post", "post.venue != 'University of California, Irvine' and post.venue != 'Instituto Superior Técnico, University of Lisbon'" %}
+
+<h2>University of California, Irvine</h2>
+<ul>
+  {% for post in uci_courses %}
+    <li>{{ post.title }} ({{ post.term }})</li>
+  {% endfor %}
+</ul>
+
+<h2>Instituto Superior Técnico, University of Lisbon</h2>
+<ul>
+  {% for post in ist_courses %}
+    <li>{{ post.title }} ({{ post.term }})</li>
+  {% endfor %}
+</ul>
+
+{% if other_courses.size > 0 %}
+<h2>Summer Schools &amp; Other</h2>
+<ul>
+  {% for post in other_courses %}
+    <li>{{ post.title }} — {{ post.venue }} ({{ post.term }})</li>
+  {% endfor %}
+</ul>
+{% endif %}

@@ -59,9 +59,10 @@ Talks
 
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% assign teaching_sorted = site.teaching | sort: "date" | reverse %}
+<ul>{% for post in teaching_sorted %}
+  <li>{{ post.title }} ({{ post.term }})</li>
+{% endfor %}</ul>
 
 Skills
 ======
