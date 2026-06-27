@@ -1,0 +1,121 @@
+/* ==========================================================================
+   PUBLICATIONS LIST
+   ========================================================================== */
+
+.pub-list {
+  margin-top: 1.5em;
+}
+
+.pub-year {
+  margin-top: 2em;
+  margin-bottom: 0.4em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--global-border-color);
+  font-size: $type-size-3;
+  font-weight: 700;
+}
+
+.pub-year-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.pub-item {
+  padding: 1em 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub-title-line {
+  margin-bottom: 0.2em;
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: $type-size-5;
+  color: var(--global-text-color);
+
+  &[href] {
+    color: var(--global-link-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-link-color-hover);
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub-badge {
+  display: inline-block;
+  font-size: $type-size-8;
+  font-weight: 700;
+  padding: 0.15em 0.5em;
+  border-radius: 3px;
+  margin-left: 0.5em;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+
+  &--manuscripts   { background: #1a4d6e; color: #fff; }
+  &--conferences   { background: #1b4d2e; color: #fff; }
+  &--workshops     { background: #4d3a0a; color: #fff; }
+  &--under_review  { background: #3a1a5a; color: #fff; }
+}
+
+.pub-authors {
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.15em;
+}
+
+.pub-venue {
+  font-size: $type-size-6;
+  margin-bottom: 0.5em;
+}
+
+.pub-award {
+  color: #e6b84a;
+  font-weight: 600;
+}
+
+.pub-links {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  flex-wrap: wrap;
+}
+
+.pub-btn {
+  display: inline-block;
+  font-size: $type-size-7;
+  font-weight: 600;
+  padding: 0.2em 0.65em;
+  border-radius: 3px;
+  border: 1px solid var(--global-border-color);
+  background: transparent;
+  color: var(--global-text-color);
+  text-decoration: none;
+  cursor: pointer;
+  font-family: $sans-serif;
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-link-color);
+    color: var(--global-link-color);
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: var(--global-text-color);
+  }
+}
+
+.bibtex-content {
+  display: none;
+}

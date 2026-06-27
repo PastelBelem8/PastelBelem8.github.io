@@ -3,10 +3,14 @@ title: "Uncertainty as Feature Gaps: Epistemic Uncertainty Quantification of LLM
 collection: publications
 category: conferences
 permalink: /publication/2026-iclr-uncertainty-feature-gaps
-excerpt: 'We propose a framework for epistemic uncertainty quantification of LLMs in contextual question-answering settings.'
 date: 2026-01-15
-venue: 'The Fourteenth International Conference on Learning Representations (ICLR 2026)'
-citation: 'Y. F. Bakman, S. Kang, Z. Huang, D. N. Yaldiz, C. Belem, C. Zhu, A. Kumar, A. Samuel, D. Liu, S. Avestimehr, S. P. Karimireddy. (2026). &quot;Uncertainty as Feature Gaps: Epistemic Uncertainty Quantification of LLMs in Contextual Question-Answering.&quot; <i>ICLR 2026</i>.'
+venue: 'International Conference on Learning Representations (ICLR 2026)'
+authors: 'Y. F. Bakman, S. Kang, Z. Huang, D. N. Yaldiz, C. Belem, C. Zhu, A. Kumar, A. Samuel, D. Liu, S. Avestimehr, S. P. Karimireddy'
+bibtex: |
+  @inproceedings{bakman2026iclr,
+    title={Uncertainty as Feature Gaps: Epistemic Uncertainty Quantification of {LLMs} in Contextual Question-Answering},
+    author={Bakman, Yosef Fridman and Kang, Sungmin and Huang, Zheng and Yaldiz, D. Nezih and Belem, Catarina G. and Zhu, Chen and Kumar, Aakriti and Samuel, Anand and Liu, Dong and Avestimehr, Salman and Karimireddy, Sai Praneeth},
+    booktitle={International Conference on Learning Representations},
+    year={2026}
+  }
 ---
-
-We propose a feature-gap-based framework for quantifying epistemic uncertainty of LLMs in contextual question-answering settings.

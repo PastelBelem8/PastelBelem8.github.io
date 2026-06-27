@@ -5,32 +5,98 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% if site.author.googlescholar %}
+<p>See also my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.</p>
 {% endif %}
 
+<div class="pub-list">
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% assign prev_year = "" %}
+{% assign opened_ul = false %}
 
+{% for pub in sorted_pubs %}
+  {% assign pub_year = pub.date | date: "%Y" %}
 
+  {% if pub_year != prev_year %}
+    {% if opened_ul %}</ul>{% endif %}
+    <h2 class="pub-year">{{ pub_year }}</h2>
+    <ul class="pub-year-list">
+    {% assign prev_year = pub_year %}
+    {% assign opened_ul = true %}
+  {% endif %}
+
+  <li class="pub-item">
+    {% if pub.category == "manuscripts" %}{% assign badge = "Journal" %}
+    {% elsif pub.category == "conferences" %}{% assign badge = "Conference" %}
+    {% elsif pub.category == "workshops" %}{% assign badge = "Workshop" %}
+    {% elsif pub.category == "under_review" %}{% assign badge = "Preprint" %}
+    {% else %}{% assign badge = "" %}
+    {% endif %}
+
+    <div class="pub-title-line">
+      {% if pub.paperurl %}
+        <a class="pub-title" href="{{ pub.paperurl }}">{{ pub.title }}</a>
+      {% else %}
+        <span class="pub-title">{{ pub.title }}</span>
+      {% endif %}
+      {% if badge != "" %}
+        <span class="pub-badge pub-badge--{{ pub.category }}">{{ badge }}</span>
+      {% endif %}
+    </div>
+
+    {% if pub.authors %}
+      <div class="pub-authors">{{ pub.authors }}</div>
+    {% endif %}
+
+    <div class="pub-venue">
+      <em>{{ pub.venue }}</em>
+      {% if pub.award %}&ensp;<span class="pub-award">&#9733; {{ pub.award }}</span>{% endif %}
+    </div>
+
+    {% if pub.paperurl or pub.bibtex %}
+    <div class="pub-links">
+      {% if pub.paperurl %}
+        <a href="{{ pub.paperurl }}" class="pub-btn">PDF</a>
+      {% endif %}
+      {% if pub.bibtex %}
+        <button class="pub-btn bibtex-btn" aria-label="Copy BibTeX for {{ pub.title }}">Copy BibTeX</button>
+        <pre class="bibtex-content">{{ pub.bibtex }}</pre>
+      {% endif %}
+    </div>
+    {% endif %}
+  </li>
+
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+</div>
+
+<script>
+(function () {
+  document.querySelectorAll('.bibtex-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var pre = btn.nextElementSibling;
+      var text = pre.textContent.trim();
+      var copied = function () {
+        btn.textContent = 'Copied!';
+        setTimeout(function () { btn.textContent = 'Copy BibTeX'; }, 2000);
+      };
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(copied);
+      } else {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        copied();
+      }
+    });
+  });
+})();
+</script>

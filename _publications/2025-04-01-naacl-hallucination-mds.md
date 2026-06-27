@@ -3,11 +3,15 @@ title: "From Single to Multi: How LLMs Hallucinate in Multi-Document Summarizati
 collection: publications
 category: conferences
 permalink: /publication/2025-naacl-hallucination-mds
-excerpt: 'We analyze hallucinations in multi-document summarization across 5 LLMs, proposing a taxonomy of error types through large-scale human annotation.'
 date: 2025-04-01
-venue: 'Findings of the 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL)'
+venue: 'Findings of the Annual Conference of the North American Chapter of the ACL (NAACL 2025)'
 paperurl: 'https://arxiv.org/abs/2410.13961'
-citation: 'C. Belem, P. Pezeshkpour, H. Iso, S. Maekawa, N. Bhutani, E. Hruschka. (2025). &quot;From Single to Multi: How LLMs Hallucinate in Multi-Document Summarization.&quot; <i>Findings of NAACL 2025</i>.'
+authors: 'C. Belem, P. Pezeshkpour, H. Iso, S. Maekawa, N. Bhutani, E. Hruschka'
+bibtex: |
+  @inproceedings{belem2025naacl,
+    title={From Single to Multi: How {LLMs} Hallucinate in Multi-Document Summarization},
+    author={Belem, Catarina G. and Pezeshkpour, Pouya and Iso, Hayate and Maekawa, Seiji and Bhutani, Nikita and Hruschka, Estevam},
+    booktitle={Findings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+    year={2025}
+  }
 ---
-
-We analyze hallucination patterns in multi-document summarization across 5 popular LLMs, proposing a taxonomy of error types through large-scale human annotation and evaluating adversarial robustness and mitigation strategies.

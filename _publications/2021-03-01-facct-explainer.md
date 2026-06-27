@@ -3,10 +3,14 @@ title: "How Can I Choose an Explainer? An Application-grounded Evaluation of Pos
 collection: publications
 category: conferences
 permalink: /publication/2021-facct-explainer
-excerpt: 'We present an application-grounded evaluation framework for comparing post-hoc explanation methods, focusing on human-centered assessment.'
 date: 2021-03-01
-venue: 'Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT)'
-citation: 'S. Jesus, C. Belem, V. Balayan, J. Bento, P. Saleiro, P. Bizarro, J. Gama. (2021). &quot;How Can I Choose an Explainer? An Application-grounded Evaluation of Post-hoc Explanations.&quot; <i>FAccT 2021</i>.'
+venue: 'ACM Conference on Fairness, Accountability, and Transparency (FAccT 2021)'
+authors: 'S. Jesus, C. Belem, V. Balayan, J. Bento, P. Saleiro, P. Bizarro, J. Gama'
+bibtex: |
+  @inproceedings{jesus2021facct,
+    title={How Can {I} Choose an Explainer? {An} Application-grounded Evaluation of Post-hoc Explanations},
+    author={Jesus, S{\'e}rgio and Belem, Catarina G. and Balayan, Varduhi and Bento, Jo{\~a}o and Saleiro, Pedro and Bizarro, Pedro and Gama, Jo{\~a}o},
+    booktitle={ACM Conference on Fairness, Accountability, and Transparency},
+    year={2021}
+  }
 ---
-
-We present an application-grounded evaluation framework that systematically compares post-hoc explanation methods through user studies with domain experts, focusing on human-centered criteria in fraud detection contexts.
