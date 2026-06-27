@@ -5,6 +5,7 @@ category: under_review
 permalink: /publication/2026-certainty-distortion
 date: 2026-01-01
 venue: 'Under review'
+paperurl: 'https://arxiv.org/abs/2606.07951'
 authors: 'C. Belem, S. Wu, H. Yao, M. Steyvers, S. Singh, P. Smyth'
 bibtex: |
   @article{belem2026certainty,
