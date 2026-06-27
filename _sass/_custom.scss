@@ -244,3 +244,38 @@
 .news-text {
   color: var(--global-text-color);
 }
+
+/* ==========================================================================
+   CV ORGANIZATION LOGOS (Education / Research Experience)
+   ========================================================================== */
+
+.cv-orglist > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cv-orglist > ul > li {
+  position: relative;
+  min-height: 56px;
+  padding-left: 96px;        /* logo column (76px chip) + gap */
+  margin-bottom: 1.3em;
+}
+
+/* keep default bullets for the per-role detail lists */
+.cv-orglist > ul > li > ul {
+  list-style: disc;
+  margin-top: 0.35em;
+}
+
+.cv-logo {
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 76px;
+  height: 56px;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+  padding: 6px;
+}
