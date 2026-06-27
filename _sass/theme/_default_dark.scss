@@ -33,22 +33,23 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site — brand: black/white/blue */
+/* Dark theme intentionally mirrors the light theme so every visitor sees the
+   same cold professional look regardless of OS prefers-color-scheme. */
 html[data-theme="dark"] {
-    --global-base-color                 : #000000;
-    --global-bg-color                   : #000000;
-    --global-footer-bg-color            : #000000;
-    --global-border-color               : rgba(255, 255, 255, 0.15);
-    --global-dark-border-color          : rgba(255, 255, 255, 0.25);
-    --global-code-background-color      : #111111;
-    --global-code-text-color            : #e6e6e6;
-    --global-fig-caption-color          : rgba(255, 255, 255, 0.6);
-    --global-link-color                 : #58a6ff;
-    --global-link-color-hover           : #79b8ff;
-    --global-link-color-visited         : #58a6ff;
-    --global-masthead-link-color        : #ffffff;
-    --global-masthead-link-color-hover  : #79b8ff;
-    --global-text-color                 : #ffffff;
-    --global-text-color-light           : rgba(255, 255, 255, 0.65);
-    --global-thead-color                : #111111;
+    --global-base-color                 : #1F2933;  /* deep slate — dark UI (buttons, active nav) with white text */
+    --global-bg-color                   : #F7F9FB;  /* cool off-white — page background */
+    --global-footer-bg-color            : #EAF0F6;  /* pale blue-gray — footer block */
+    --global-border-color               : #CAD4DF;  /* cool gray — borders */
+    --global-dark-border-color          : #5B6773;  /* slate gray — stronger borders */
+    --global-code-background-color      : #EAF0F6;  /* pale blue-gray — code blocks */
+    --global-code-text-color            : #1F2933;  /* deep slate — code text */
+    --global-fig-caption-color          : #5B6773;  /* slate gray — captions */
+    --global-link-color                 : #3A6EA5;  /* muted blue — accent */
+    --global-link-color-hover           : #244E78;  /* deep blue — accent hover */
+    --global-link-color-visited         : #3A6EA5;  /* muted blue */
+    --global-masthead-link-color        : #1F2933;  /* deep slate — nav links */
+    --global-masthead-link-color-hover  : #3A6EA5;  /* muted blue — nav hover */
+    --global-text-color                 : #1F2933;  /* deep slate — main text */
+    --global-text-color-light           : #5B6773;  /* slate gray — secondary text */
+    --global-thead-color                : #1F2933;  /* deep slate — table head / keyword tags */
 }
